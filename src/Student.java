@@ -58,7 +58,7 @@ class StudentInfo {
 
 
 
-interface Predicate<T> {
-    boolean test(Student s);
-    void t();
-}
+//interface Predicate<T> {
+//    boolean test(Student s);
+//    void t();
+//}
