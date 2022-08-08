@@ -20,6 +20,7 @@ public class Student {
 }
 
 class StudentInfo {
+    //master test
     void printStudent (Student student) {
         System.out.println("Name student: " + student.name + ", pol: " + student.sex + ", vozrast: " + student.age + ", kurs: " + student.avgGrade);
     }
