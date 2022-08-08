@@ -23,6 +23,7 @@ class StudentInfo {
     //master test
     //test
     //test 2 commit and branch 2
+    //test 3 commit and branch 2
 
     void printStudent (Student student) {
         System.out.println("Name student: " + student.name + ", pol: " + student.sex + ", vozrast: " + student.age + ", kurs: " + student.avgGrade);
