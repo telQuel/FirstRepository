@@ -16,6 +16,7 @@ class TestEmployee {
     static void printEmployee(Employee e) {
         System.out.println("Name: " + e.name + " Department: " + e.department + " Salary: " + e.salary);
     }
+
     static void filtraciyaRabotnikov(Predicate <Employee> t, ArrayList<Employee> a){
         for (Employee employee : a) {
             if (t.test(employee)) {
